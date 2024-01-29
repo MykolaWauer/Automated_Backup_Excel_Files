@@ -3,17 +3,17 @@ Creation of automated backup and encryption of weekly Excel files.
 
 ## Overview
 
-This Python script performs currency conversion on an Excel file containing sales data. 
-It utilizes the powerful data manipulation library, pandas, to handle Excel data and the forex-python library to fetch daily updated exchange rates. 
-The converted data is then saved to a new Excel file using openpyxl.
+This Python script performs the crucial task of automating the backup and encryption of weekly Excel files. The primary objective is to facilitate the creation of an Excel file on a regular basis without a password. Following this, the script automates the process of copying the Excel file and its contents to a designated drive, where it is subsequently encrypted with a password.
 
 ## Features
 
-- Converts currency values from Krone (CZK) to Euro (EUR) based on daily exchange rates
-- Uses pandas for efficient data manipulation
-- Retrieves exchange rates from forex-python
-- Saves the results to a new Excel file with openpyxl
-
+- Real-timr file system monitoring
+- Automated weekly Excel file backup
+- Efficient initial copy
+- Encryption with password -- in process
+- Robuts error handling
+- Cross-platform compatibility
+  
 ## Requirements
 
 - Python 3.x
@@ -22,4 +22,4 @@ The converted data is then saved to a new Excel file using openpyxl.
 ## Usage
 
 1. Install the required packages: `pip install -r requirements.txt`
-2. Run the script: `automated.py`
+2. Run the script: `automated_backup.py`
