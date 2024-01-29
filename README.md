@@ -3,14 +3,13 @@ Creation of automated backup and encryption of weekly Excel files.
 
 ## Overview
 
-This Python script performs the crucial task of automating the backup and encryption of weekly Excel files. The primary objective is to facilitate the creation of an Excel file on a regular basis without a password. Following this, the script automates the process of copying the Excel file and its contents to a designated drive, where it is subsequently encrypted with a password.
+This Python script performs the crucial task of automating the backup and encryption of weekly Excel files. The primary objective is to facilitate the creation of an Excel file on a regular basis without a password. Following this, the script automates the process of copying the Excel file and its contents to a designated drive.
 
 ## Features
 
 - Real-timr file system monitoring
 - Automated weekly Excel file backup
 - Efficient initial copy
-- Encryption with password -- in process
 - Robuts error handling
 - Cross-platform compatibility
   
