@@ -1,0 +1,4 @@
+# watchdog is used for monitoring file system events. pandas is a powerful data manipulation library for Python
+# watchdog==<3.0.0>
+
+pip install --user watchdog
